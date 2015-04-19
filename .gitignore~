@@ -1,0 +1,96 @@
+# this is /usr/local/git/.gitignore
+#
+# modified to organize and include suggestions from
+#[[https://gist.github.com/octocat/9257657]]
+#
+# unfortunately, there doesn't seem to be a way of telling git to ignore
+# all files over the size limit in the .gitignore file.
+#
+# Kazic, 3.2.2015
+#
+#
+#
+#### general, operating system
+#
+*~
+._*
+.DS_Store*
+.Spotlight*
+.Trashes*
+.Thumbs*
+.thumbs*
+.dir
+.pag
+\#*
+#
+##### images
+#
+*.png
+*.jp*g
+*.J*PG
+*.xcf
+*.NEF
+*.svg
+*.tif*
+*.gif
+*.CR2
+#
+#
+###### paper stuff
+#
+*.pdf*
+*.aux
+*.dvi
+*.log
+*.doc*
+*.*ps
+#
+##### spreadsheets
+#
+*.xls*
+*.numbers
+*.rtf
+#
+###### packaging
+#
+*.tar
+*.gz*
+*.bz*
+*.jar
+*.dmg
+*.rar
+*.zip
+*.7z
+*.iso
+#
+###### logs and databases
+#
+# *.log
+# *.sql
+# *.sqlite
+#
+###### gui-generated files
+#
+*.ods
+*.odp
+*.odt
+*.ttf
+*.msg
+*.ppt*
+*.out
+*.ads
+*.cmap
+#
+####### code
+#
+*.js
+*.R*
+*.o
+*.so
+#
+###### sound files
+#
+*.wav
+*.aiff
+*.ogg
+*.mp3
